@@ -1,0 +1,30 @@
+{
+  "Logistic Regression": {
+    "model__C": 0.1,
+    "model__penalty": "l1"
+  },
+  "Decision Tree": {
+    "model__criterion": "gini",
+    "model__max_depth": 20,
+    "model__min_samples_leaf": 1,
+    "model__min_samples_split": 2
+  },
+  "Random Forest": {
+    "model__max_depth": 20,
+    "model__max_features": "log2",
+    "model__min_samples_leaf": 1,
+    "model__min_samples_split": 2,
+    "model__n_estimators": 300
+  },
+  "SVM": {
+    "model__C": 10,
+    "model__gamma": 0.1,
+    "model__kernel": "rbf"
+  },
+  "KNN": {
+    "model__metric": "minkowski",
+    "model__n_neighbors": 11,
+    "model__p": 1,
+    "model__weights": "distance"
+  }
+}
