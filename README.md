@@ -26,13 +26,14 @@ The implementation follows a leakage-safe design:
 
 ## Project Structure
 
-- `main.py` - Main experiment script
+- `src/main.py` - Main experiment script
 - `requirements.txt` - Python dependencies
 - `README.md` - Setup and run instructions
 - `data/` - Optional location for dataset
 - `figures/` - Saved confusion matrices and comparison chart
 - `models/` - Saved best trained models (`joblib`)
-- `outputs/` - Copies of tabular/JSON outputs
+- `results/` - Copies of tabular/JSON outputs
+- `results/outputs/` - Copies of tabular/JSON inside results folder
 - `results_summary.csv` - Main summary output
 - `best_hyperparameters.json` - Main best-parameter output
 
